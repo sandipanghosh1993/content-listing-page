@@ -1,6 +1,4 @@
 import React, { Suspense } from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 
 interface SearchFieldProps {
   getFilteredData: any;

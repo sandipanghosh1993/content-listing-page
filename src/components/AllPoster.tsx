@@ -1,13 +1,11 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import Poster from './Poster';
 
-export interface AllPosterProps {
+interface AllPosterProps {
   filteredData: any;
 }
 
-export interface AllPosterState {
+interface AllPosterState {
   pageSize: number;
   content: any[];
   page: number;

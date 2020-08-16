@@ -7,9 +7,7 @@ interface PosterProps {
   height: number;
 }
 
-interface PosterState {}
-
-class Poster extends React.Component<PosterProps, PosterState> {
+class Poster extends React.Component<PosterProps, {}> {
   public constructor(props: PosterProps) {
     super(props);
     this.state = {};

@@ -4,14 +4,12 @@ import SearchField from './SearchField';
 
 const AllPoster: any = React.lazy(() => import('./AllPoster'));
 
-interface AppProps {}
-
 interface AppState {
   filteredData: any;
 }
 
-class App extends React.Component<AppProps, AppState> {
-  public constructor(props: AppProps) {
+class App extends React.Component<{}, AppState> {
+  public constructor(props: any) {
     super(props);
     this.state = {
       filteredData: null
