@@ -2,7 +2,7 @@
   "name": "content-listing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sandipan.ghosh1993.github.io/content-listing-page",
+  "homepage": "http://sandipanghosh1993.github.io/content-listing-page",
   "engines": {
     "node": ">=10.15.3"
   },

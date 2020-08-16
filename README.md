@@ -1,5 +1,7 @@
 ## Content Listing App for Mobile Browser
 
+This app is hosted on http://sandipanghosh1993.github.io/content-listing-page
+
 ## Getting Started
 
 To get started make sure [node](https://nodejs.org/en/download/) is installed locally and then run `npm install` within this directory.
